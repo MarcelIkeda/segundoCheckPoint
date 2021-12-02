@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    background-color: hsl(219, 21%, 13%);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    height: 1200px;
+}
+
+main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: rgb(33, 153, 223);
+}
+
+.midia-social a {
+    text-decoration: none;
+}
+
+.midia-social a:nth-child(1) img{
+    margin-left: 0%;
+}
+
+.midia-social img{
+    width: 35px;
+    margin-left: 3rem;
+    gap: 30px;
+}
+
+.separacao{
+    margin-top: 1rem;
+    
+}
+
+.separacao span{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+    position: relative;
+}
+
+.separacao span::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+    background: white;
+}
+
+.separacao span::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100px;
+    bottom: 50%;
+    left: 50px;
+    background: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+input{
+    background-color: #161923;
+    outline: none;
+    color: white;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: 1px solid #040818;
+    border-radius: 8px;
+}
+
+input:hover{
+    transform: scale(1.5);
+}
+
+.radio{
+    display: grid;
+    font-size: 1.1rem;    
+    margin-top: 2rem;
+    margin-left: -50px;      
+}
+
+.check{
+    font-size: 1.1rem;    
+    margin-top: 2rem;
+    margin-left: 50px;    
+}
+
+.botao button{
+    margin-top: 20px;
+    width: 90px;
+    height: 35px;
+    font-size: 14px;
+    background-color: rgb(33, 153, 223);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#c1{
+    display: grid;
+}
+
+.botao button:hover{
+    background-color:rgb(28, 93, 131);
+}
+
+section.imagem{
+    display: flex;
+    align-items: baseline;
+    padding: 4rem;
+}
+
+section.imagem img{
+    width: 90%;
+}
+

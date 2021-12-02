@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">   
+    <title>Cadastro</title>
+</head>
+<body>
+<main>
+        <h1 class="titulo">Cadastre com:</h1>
+        <div class="midia-social">
+          <a href="#">
+            <img id="google"src="css/imagem/google.svg" alt="google">
+          </a>
+          <a href="#">
+            <img id="face" src="css/imagem/facebook.svg" alt="facebook">
+          </a>
+          <a href="#">
+            <img id="linkdin" src="css/imagem/linkedin.svg" alt="linkdin">
+          </a>
+        </div>          
+        <div class="separacao">          
+        <span>Ou</span>
+      </div>      
+        <form action="Cadastro" method="get"> 
+          <div class="in1">         
+          <label for="nome">
+            <span>Nome:</span>
+            <input type="text" name="nome" id="nome" minlength="2" maxlength="100">
+          </label>
+          <label for="email">
+            <span>E-mail:</span>
+            <input type="email" name="email" id="email">
+          </label>
+          <label for="tel">
+            <span>Telefone:</span>
+            <input type="phonenumber" name="tel" id="tel">
+          </label>
+          <label for="nasc">
+            <span>Data de Nascimento:</span>
+            <input type="date" name="nasc" id="nasc">
+          </label>
+        </div>      
+        <div class="radio">
+            <label for="idade">É maior de idade?</label> 
+            <input type="radio" name="maiorIdade" value="S">
+            <span>Sim</span>
+            <input type="radio" name="maiorIdade" value="N">
+            <span>Não</span>        
+        </div>
+          <label for="senha">
+            <span>Senha:</span>
+            <input type="text" name="senha" id="senha">
+          </label>
+          <div class="check">
+              <span>Qual o seu interesse na cidade?</span>
+              <input id="c1" type="checkbox" name="interesse" value="Negocios">Negócios
+              
+              <input id="c1" type="checkbox" name="interesse" value="Moradia"> 
+              <span id="c2">Viver na cidade</span>
+              <input id="c1" type="checkbox" name="interesse" value="Educação">    
+              <span id="c2">Educação</span>   
+          </div>   
+         <div class="botao">
+          <button>Criar Cadastro</button>
+          <button>Reset</button>
+        </div>         
+        </label>  
+       </form>     
+        
+</main>
+<section class="imagem">
+    <img src="css/imagem/celular.svg" alt="">
+</section>
+</body>
+</html>
